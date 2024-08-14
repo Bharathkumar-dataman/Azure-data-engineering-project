@@ -12,7 +12,8 @@
 # project implementation  : 
    ## *store the incoming data (csv file from internal applications) in azure data lake storage as landing data 
       * create SQLdatabase in azure to store data which stores validation passed data 
-      * lauch a azure databricks work on bussiness logic implementation
+      * lauch a azure databricks work on bussiness logic implementation 
+      ## https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/validation.ipynb
       * create keyvault to store secrets (best pratices)
       * create azure data factory and data pipeline and trigger when data comes to storage account and data moves to azure databricks to check validation such that 
                 * duplicate rows, date format ,data column names , desired date format is stored in a azure Sql server 
@@ -21,7 +22,7 @@
                 * write the passed files as the delta table in the azure databricks 
   # challenges during project implemetaion  
       * carefull when assigning RBAC access to keyvault , databricks want to fetch data from sql server to validate the data so store secrets (passwords , username ) in  keyvault as a best pratice and also allow access policies for databrick to fetech data .
-      
+      important note: we can even use azure fuctions or apps to send a notification  when files landed on our storage  account .
 
 
 
