@@ -27,7 +27,7 @@
   ##   * move all the passed files to staging folder 
   ##   * write the passed files as the delta table in the azure databricks 
 
-  # challenges during project implemetaion  
+  # challenges during project implementation 
    ##  carefull when assigning RBAC access to keyvault , databricks want to fetch data from sql server to validate the data so store secrets (passwords , username ) in  keyvault as a best pratice and also allow access policies for databrick to fetech data .
    
 # important note: we can even use azure fuctions or apps to send a notification  when files landed on our storage  account .
