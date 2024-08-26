@@ -38,10 +38,10 @@
 
 # Create ADF pipeline to call notebook and test end to end flow 
  ## create a notebook in ADF with parameters such that  "file/name" , and ends with " .csv " (we want only csv files )
- ## Add a storage event trigger ( if incoming file comes landing with parameters like file ends with .csv then autimatically adf pipelines triggers to databrickes notebook where it checks data validation and schema from azure sql , if rejected it automatically lands on rejeted folder , if validation passed it will  pass on to create delta tables in databricks )
- ## you can check for code for validation :  https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/linked%20in%20service%20SQL.sql
+ ## Add a storage event trigger ( if incoming file comes landing with parameters like file ends with .csv then autOmatically ADF pipelines triggers to databrickes notebook where it checks data validation and schema from azure sql , if rejected it automatically lands on rejeted folder , if validation passed it will  write delta tables in databricks )
+ ##  check for code for validation :  https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/linked%20in%20service%20SQL.sql
 
- ## important note :Enable even grid registeration  subscription  
+ ## important note :Enable event grid registeration  subscription  
 
 
   # challenges during project implementation 
