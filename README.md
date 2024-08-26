@@ -1,5 +1,5 @@
 # Azure-data-engineering-project
-   ## project overview: The goal of this project is to perform data validation on AP Morgan incoming  data from internal applications using various tools and technologies 
+   ## Project overview: The goal of this project is to perform data validation on AP Morgan incoming  data from internal applications using various tools and technologies 
 ## Tech stack :
  ##  *Azure blob storaage 
  ##  *Azure sql database
