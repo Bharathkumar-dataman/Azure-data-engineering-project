@@ -11,9 +11,10 @@
   <img width="394" alt="Project2_Archiecture (1)" src="https://github.com/user-attachments/assets/0b1e3c36-98cb-4bbf-be28-b01749643fd8">
   
 # Project implementation   
-  ## *store the incoming data (csv file from internal applications) in azure data lake storage as landing data 
+  ## * store the incoming data (csv file from internal applications) in azure data lake storage as landing data 
   ## * create SQLdatabase in azure to store data which stores validation passed data 
-  ## * lauch a azure databricks work on bussiness logic implementation 
+  ## * launch a azure databricks work on bussiness logic implementation 
+  
   ## https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/validation.ipynb
   
   ##    * create keyvault to store secrets (best pratices)
