@@ -46,6 +46,8 @@
 
   # challenges during project implementation 
    ##  carefull when assigning RBAC access to keyvault , databricks want to fetch data from sql server to validate the data so store secrets (passwords , username ) in  keyvault as a best pratice and also allow access policies for databrick to fetech data .
+
+   ## carefully assign a parameters in pipeline so that it  triggers as we want to send incoming file to databricks notebook 
    
 # important note: we can even use azure fuctions or apps to send a notification  when files landed on our storage  account .
 
