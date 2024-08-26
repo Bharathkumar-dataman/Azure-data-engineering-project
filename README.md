@@ -19,6 +19,8 @@
   
   ##    * create keyvault to store secrets (best pratices)
   ##    * create azure data factory and data pipeline and trigger when data comes to storage account and data moves to azure databricks to check validation such that 
+
+  ## i have provided data validation logic code here : https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/validation.ipynb
   
   ##   * duplicate rows, date format ,data column names , desired date format is stored in a azure Sql server 
   ##   * if validation fails file will be rejected and move to reject folder 
