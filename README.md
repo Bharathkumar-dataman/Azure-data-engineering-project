@@ -14,7 +14,12 @@
   ## * store the incoming data (csv file from internal applications) in azure data lake storage as landing data 
   ## * create SQLdatabase in azure to store data which stores validation passed data 
   ## * connect to sqldb with ssms and create a metadata/schema you can use my sql code as a example : https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/SQL%2BTable.sql
-  ## * launch a azure databricks work on bussiness logic implementation 
+  
+   ## * launch a azure databricks work on bussiness logic implementation 
+
+# important best pratices to follow 
+   ## store sql sever password, SAS token  in azure keyvault 
+   ## create secretscope in databricks backed by azure keyvault( refer databricks documentation)
   
   ## https://github.com/Bharathkumar-dataman/Azure-data-engineering-project/blob/main/validation.ipynb
   
